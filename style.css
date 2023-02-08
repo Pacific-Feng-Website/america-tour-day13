@@ -190,9 +190,9 @@ nav li{
 }
 
 nav .icon-list{
-	width: 133px;
+	width: 200px;
 	display: grid ;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	align-items:center;
 }
 
@@ -226,6 +226,17 @@ nav .icon-list{
 
 .icon-list #mail:hover{
 	color: #0FB5EE;
+	transition: .3s;
+}
+
+.icon-list #search{
+	color: white;
+	font-weight: 100;
+	grid-column: 6/7;
+}
+
+.icon-list #search:hover{
+	color: black;
 	transition: .3s;
 }
 
@@ -415,9 +426,9 @@ nav .icon-list{
 	}
 	
 	nav .icon-list{
-		width: 100px;
+		width: 198px;
 		display: grid ;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 		align-items:center;
 	}
 	
@@ -435,7 +446,9 @@ nav .icon-list{
 		grid-column: 3/4;
 	}
 
-
+	.icon-list #search{
+		grid-column: 5/6;
+	}
 	
 }
 
